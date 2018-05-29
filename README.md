@@ -7,17 +7,17 @@ Jasmine is a behavior-driven development framework for testing JavaScript code. 
 `
 
 
-describe("Code to be \'Krafty\'", function() {
-  var awesomeness;
+  describe("Code to be \'Krafty\'", function() {
+    var awesomeness;
 
-  it("Should be a \'krafty\'-like function", function() {
+    it("Should be a \'krafty\'-like function", function() {
       awesomeness = true;
 
-          expect(awesomeness).toBe(true);
-
-      });
+      expect(awesomeness).toBe(true);
 
     });
+
+  });
 
 
 `

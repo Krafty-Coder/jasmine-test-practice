@@ -4,7 +4,7 @@ Refferal website for jasmine :: https://jasmine.github.io/
 
 Jasmine is a behavior-driven development framework for testing JavaScript code. It does not depend on any other JavaScript frameworks. It does not require a DOM. And it has a clean, obvious syntax so that you can easily write tests.
 
-`
+```
 
 
   describe("Code to be \'Krafty\'", function() {
@@ -20,11 +20,15 @@ Jasmine is a behavior-driven development framework for testing JavaScript code. 
   });
 
 
-`
+```
 
 Jasmine can be used for JavaScript, python and Ruby but for now this is a JavaScript alone repo and tutorial
 
-```Other languages "python and ruby" will come later. Follow me and keep checking your feed for an update I make
+```
+Other languages "python and ruby" will come later. 
+```
+Follow me and keep checking your feed for an update I make
+
 
 ### Jasmine Installation
 

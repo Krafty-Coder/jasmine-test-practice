@@ -31,10 +31,8 @@ Follow me and keep checking your feed for an update I make
 `  npm install jasmine --save-dev  `to declare it as a dependency for development of your module. or `npm install jasmine` to intall it locally in your project
 
 and to install globally to the CLI tool as below
-`
-  npm install -g jasmine
 
-`
+` npm install -g jasmine `
 
 Initialising a project for jasmine by creating a spec directory and and configuring json for the project
 

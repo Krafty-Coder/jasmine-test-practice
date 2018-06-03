@@ -4,7 +4,7 @@ describe('calculate addition', function(){
     console.log('I was able to add two numbers together');
   });
 
-  it('should be able to add two numbers together', function(){
+  it('should be able to add more than two numbers together', function(){
     console.log('I was able to add more than two numbers together');
   });
 

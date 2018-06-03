@@ -188,7 +188,7 @@ Below is a preview of the syntax of a hook.
 
       });
 
-*Try copying and pasting then run this code to see what I mean. The output of the above code is as follows.
+Try copying and pasting then run this code to see what I mean. The output of the above code is as follows.
 
 If you figured, all the tests in the describe block run sequentially unlike the hooks, each hook runs at it's own time depending on the method at hand. Them being above the it test blocks, doesn't determine when and how they are run.
 If you are still wondering what the hooks are for and how they are helpful, then this is a recap of what we covered.
@@ -198,21 +198,21 @@ The after hooks are good for doing clean up after the tests run. Thus saving mem
 
 Guided by the erros and failures got from our code, the code after following all the tests will look as follows.
 
-var Calculator = function() {
-  return {
-    add: function(a,b) {
-      return a + b;
-     },
-    subtract: function(a,b) {
-      return a - b;
-     },
-    divide: function(a,b) {
-      return a / b;
-     },
-    multiply: function(a,b) {
-      return a * b;
-     },
-  }
-}
+    var Calculator = function() {
+      return {
+        add: function(a,b) {
+          return a + b;
+         },
+        subtract: function(a,b) {
+          return a - b;
+         },
+        divide: function(a,b) {
+          return a / b;
+         },
+        multiply: function(a,b) {
+          return a * b;
+         },
+      }
+    }
 
 

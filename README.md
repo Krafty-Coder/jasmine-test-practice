@@ -34,7 +34,6 @@ Jasmine can be used for JavaScript, python and Ruby but for now this is a JavaSc
 ```
 Other languages "python and ruby" will come later.
 
-```
 Follow me and keep checking your feed for an update I make on the repo*
 
 
@@ -189,9 +188,9 @@ Below is a preview of the syntax of a hook.
 
       });
 
-Try copying and pasting then run this code to see what I mean. The output of the above code is as follows.
+*Try copying and pasting then run this code to see what I mean. The output of the above code is as follows.
 
-**If you figured, all the tests in the describe block run sequentially unlike the hooks, each hook runs at it's own time depending on the method at hand. Them being above the it test blocks, doesn't determine when and how they are run.
+If you figured, all the tests in the describe block run sequentially unlike the hooks, each hook runs at it's own time depending on the method at hand. Them being above the it test blocks, doesn't determine when and how they are run.
 If you are still wondering what the hooks are for and how they are helpful, then this is a recap of what we covered.
 
 The before hooks are mainly helpful in running setup code and avoids code duplication and help maintain similar test steps and conventionally they will be shared across all the tests.

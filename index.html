@@ -1,23 +1,31 @@
 <!DOCTYPE html> 
-
 <html>
   <head>
     <meta charset = "utf-8">
 
-    <title>Jasmine Spec Runner v2.4.1</title>
+    <title></title>
     <link rel="stylesheet" href="css/style.css">
 
-    <script src = "lib/jasmine-2.4.1/jasmine.js"></script>
-    <script src = "lib/jasmine-2.4.1/jasmine-html.js"></script>
-    <script src = "lib/jasmine-2.4.1/boot.js"></script>
-
-    <script src = "js/calculator.js"></script>
-    <script src = "spec/test_calculator.spec.js"></script>
   </head>
 
   <body>
     <form>
+      Value 1
+      <input id="valueone" name="valueone" value="valueone">
+      </input><br>
+      Symbol
+      <input id="sym" name="sym" value="sym">
+      </input><br>
+      Value 2
+      <input id="valuetwo" name="valuetwo" value="valuetwo">
+      </input>
+      <br>
+      <input type="button" onclick="calc()" value="submit" name="equal" >
+      </input>
+      <p id="demo" ></p>
+    </form>
 
+    <script src="spec/totest.js" type="text/javascript"  ></script>
   </body>
 
 </html>
